@@ -44,7 +44,7 @@ $(document).ready(function(){
 			}
 			else if (cod <= 781) {
 				// atmosphere
-				iconCode = "wi-dust";
+				iconCode = "wi-fog";
 			}
 			else if (cod === 800) {
 				// clear
