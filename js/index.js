@@ -94,12 +94,12 @@ $(document).ready(function(){
 			$("#temp").on("click", function() {
 				console.log("clicked");
 				if (current){
-					$("#temp").html(celsius+"<i class='wi wi-celsius'></i>");
+					$("#temp").hide().html(celsius+"<i class='wi wi-celsius'></i>").fadeIn('slow');
 					current = false;
 					console.log(current);
 				}
 				else {
-					$("#temp").html(fahr+"<i class='wi wi-fahrenheit'></i>");
+					$("#temp").hide().html(fahr+"<i class='wi wi-fahrenheit'></i>").fadeIn('slow');
 					current = "fahr";                                                                                                                                                                                                                                                                                       
 				}
 			})
